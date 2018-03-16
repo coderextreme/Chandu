@@ -1,0 +1,10 @@
+<html>
+<body>
+<p>
+We base our neural network architecture on music measures or beats.  We devise 256 kinds of measures for different combinations of drums. More combinations exist for other instruments.  Then we start using a probablistic grammar or sequence generator based on "music2vec" embeddings to write songs.  Once we have song, we compare it to an existing song for similarity, we do this by comparing vectors describing the songs (ala musly.org) and taking a distance.  Then we do back propagation through the neural network to modify weights, using gradient descent (following a slope downhill) to reduce the distance to make the songs more similar when we output the next song.   Then we run the grammar and the neural network again, compare it to an existing song, and repeat.  Once we get a passing on the similarity comparer, we switch to another piece of music to compare to and repeat.
+</p>
+<p>
+Similar to human beings playing together, each instrument is trained separately on a song and as an ensemble.
+</p>
+</body>
+</html>
