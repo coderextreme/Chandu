@@ -7,16 +7,12 @@
 
 #ifndef ANN_H
 #define	ANN_H
-#include<sstream>
-#include<iostream>
-#include <cstdlib>
-#include<string>
-#include <fstream>
+#include<bits/stdc++.h>
 using namespace std;
 void snares();
 void kicks();
 void kicksxsnares();
-int formSentence(string)
+int formSentence(string);
 int parseWords();
 int parsePronouns();
 #ifdef	__cplusplus
