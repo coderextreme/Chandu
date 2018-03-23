@@ -1,0 +1,18 @@
+(consistant pro)noun verb object
+(consistant pro)noun adverb verb object
+(consistant pro)noun verb adjective object
+(consistant pro)noun adverb verb adjective object
+object=noun|pronoun|place| name| thing| animal
+
+or and compound sentence alternation what ?
+color?
+
+
+prepositions in place
+
+job
+qualification
+function
+talent
+
+talent detect 
