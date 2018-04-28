@@ -46,34 +46,22 @@ public class VectorCell extends Vector<CellInterface> implements CellInterface {
 		}
 		// now print object
 		for (int i = 0; i < els; i++) {
+			sb.append(category);
+			sb.append(",");
+			sb.append(instant);
+			sb.append(",");
 			if (this.get(i) instanceof VectorCell) {
-				sb.append(category);
-				sb.append(",");
-				sb.append(instant);
-				sb.append(",");
 				sb.append(((VectorCell)this.get(i)).getCategory());
 				sb.append(",");
 				sb.append(((VectorCell)this.get(i)).getInstant());
-				sb.append(",");
-				sb.append(i);
-				sb.append("\n");
 			} else {
-				if (i == 0) {
-					sb.append(category);
-					sb.append(",");
-					sb.append(instant);
-					sb.append(",");
-					sb.append("String");
-					sb.append(",");
-					sb.append(this.get(i).toString());
-				} else {
-					sb.append(",");
-					sb.append(this.get(i).toString());
-				}
-				if (i == (els - 1)) {
-					sb.append("\n");
-				}
+				sb.append("String");
+				sb.append(",");
+				sb.append(this.get(i).toString());
 			}
+			sb.append(",");
+			sb.append(i);
+			sb.append("\n");
 		} 
 		return sb.toString();
 	}
