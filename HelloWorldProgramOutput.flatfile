@@ -1,121 +1,120 @@
-attribute,2,String,"http://www.w3.org/2001/XMLSchema-instance","xmlns:xsd"
-attribute,3,String,"Immersive","profile"
-attribute,4,String,"3.3","version"
-attribute,5,String,"http://www.web3d.org/specifications/x3d-3.3.xsd","xsd:noNamespaceSchemaLocation"
-attribute,8,String,"Navigation","name"
-attribute,9,String,"3","level"
+attribute,2,String,"xmlns:xsd","http://www.w3.org/2001/XMLSchema-instance"
+attribute,3,String,"profile","Immersive"
+attribute,4,String,"version","3.3"
+attribute,5,String,"xsd:noNamespaceSchemaLocation","http://www.web3d.org/specifications/x3d-3.3.xsd"
+attribute,8,String,"name","Navigation"
+attribute,9,String,"level","3"
 component,7,attribute,8,0
 component,7,attribute,9,1
-attribute,11,String,"Layering","name"
-attribute,12,String,"1","level"
+attribute,11,String,"name","Layering"
+attribute,12,String,"level","1"
 component,10,attribute,11,0
 component,10,attribute,12,1
-attribute,14,String,"AngleUnitConversion","name"
-attribute,15,String,"angle","category"
-attribute,16,String,"1.0","conversionFactor"
+attribute,14,String,"name","AngleUnitConversion"
+attribute,15,String,"category","angle"
+attribute,16,String,"conversionFactor","1.0"
 unit,13,attribute,14,0
 unit,13,attribute,15,1
 unit,13,attribute,16,2
-attribute,18,String,"LengthUnitConversion","name"
-attribute,19,String,"length","category"
-attribute,20,String,"1.0","conversionFactor"
+attribute,18,String,"name","LengthUnitConversion"
+attribute,19,String,"category","length"
+attribute,20,String,"conversionFactor","1.0"
 unit,17,attribute,18,0
 unit,17,attribute,19,1
 unit,17,attribute,20,2
-attribute,22,String,"title","name"
-attribute,23,String,"HelloWorldProgramOutput.x3d","content"
+attribute,22,String,"name","title"
+attribute,23,String,"content","HelloWorldProgramOutput.x3d"
 meta,21,attribute,22,0
 meta,21,attribute,23,1
-attribute,25,String,"description","name"
-attribute,26,String,"Example HelloWorldProgram creates an X3D model using the X3D Java Scene Access Interface (SAI) Library","content"
+attribute,25,String,"name","description"
+attribute,26,String,"content","Example HelloWorldProgram creates an X3D model using the X3D Java Scene Access Interface (SAI) Library"
 meta,24,attribute,25,0
 meta,24,attribute,26,1
-attribute,28,String,"reference","name"
-attribute,29,String,"http://www.web3d.org/specifications/java/X3DJSAIL.html","content"
+attribute,28,String,"name","reference"
+attribute,29,String,"content","http://www.web3d.org/specifications/java/X3DJSAIL.html"
 meta,27,attribute,28,0
 meta,27,attribute,29,1
-attribute,31,String,"generator","name"
-attribute,32,String,"HelloWorldProgramOutput.java","content"
+attribute,31,String,"name","generator"
+attribute,32,String,"content","HelloWorldProgramOutput.java"
 meta,30,attribute,31,0
 meta,30,attribute,32,1
-attribute,34,String,"created","name"
-attribute,35,String,"6 September 2016","content"
+attribute,34,String,"name","created"
+attribute,35,String,"content","6 September 2016"
 meta,33,attribute,34,0
 meta,33,attribute,35,1
-attribute,37,String,"modified","name"
-attribute,38,String,"31 January 2018","content"
+attribute,37,String,"name","modified"
+attribute,38,String,"content","31 January 2018"
 meta,36,attribute,37,0
 meta,36,attribute,38,1
-attribute,40,String,"generator","name"
-attribute,41,String,"X3D Java Scene Access Interface Library (X3DJSAIL)","content"
+attribute,40,String,"name","generator"
+attribute,41,String,"content","X3D Java Scene Access Interface Library (X3DJSAIL)"
 meta,39,attribute,40,0
 meta,39,attribute,41,1
-attribute,43,String,"generator","name"
-attribute,44,String,"http://www.web3d.org/specifications/java/examples/HelloWorldProgram.java","content"
+attribute,43,String,"name","generator"
+attribute,44,String,"content","http://www.web3d.org/specifications/java/examples/HelloWorldProgram.java"
 meta,42,attribute,43,0
 meta,42,attribute,44,1
-attribute,46,String,"generator","name"
-attribute,47,String,"Netbeans http://www.netbeans.org","content"
+attribute,46,String,"name","generator"
+attribute,47,String,"content","Netbeans http://www.netbeans.org"
 meta,45,attribute,46,0
 meta,45,attribute,47,1
-attribute,49,String,"creator","name"
-attribute,50,String,"Don Brutzman","content"
+attribute,49,String,"name","creator"
+attribute,50,String,"content","Don Brutzman"
 meta,48,attribute,49,0
 meta,48,attribute,50,1
-attribute,52,String,"reference","name"
-attribute,53,String,"https://sourceforge.net/p/x3d/code/HEAD/tree/www.web3d.org/x3d/stylesheets/java/examples/HelloWorldProgramOutput.x3d","content"
+attribute,52,String,"name","reference"
+attribute,53,String,"content","https://sourceforge.net/p/x3d/code/HEAD/tree/www.web3d.org/x3d/stylesheets/java/examples/HelloWorldProgramOutput.x3d"
 meta,51,attribute,52,0
 meta,51,attribute,53,1
-attribute,55,String,"reference","name"
-attribute,56,String,"Console output, ClassicVRML encoding, VRML97 encoding and pretty-print documentation:","content"
+attribute,55,String,"name","reference"
+attribute,56,String,"content","Console output, ClassicVRML encoding, VRML97 encoding and pretty-print documentation:"
 meta,54,attribute,55,0
 meta,54,attribute,56,1
-attribute,58,String,"reference","name"
-attribute,59,String,"HelloWorldProgramOutput.txt","content"
+attribute,58,String,"name","reference"
+attribute,59,String,"content","HelloWorldProgramOutput.txt"
 meta,57,attribute,58,0
 meta,57,attribute,59,1
-attribute,61,String,"reference","name"
-attribute,62,String,"HelloWorldProgramOutput.x3dv","content"
+attribute,61,String,"name","reference"
+attribute,62,String,"content","HelloWorldProgramOutput.x3dv"
 meta,60,attribute,61,0
 meta,60,attribute,62,1
-attribute,64,String,"reference","name"
-attribute,65,String,"HelloWorldProgramOutput.wrl","content"
+attribute,64,String,"name","reference"
+attribute,65,String,"content","HelloWorldProgramOutput.wrl"
 meta,63,attribute,64,0
 meta,63,attribute,65,1
-attribute,67,String,"reference","name"
-attribute,68,String,"HelloWorldProgramOutput.html","content"
+attribute,67,String,"name","reference"
+attribute,68,String,"content","HelloWorldProgramOutput.html"
 meta,66,attribute,67,0
 meta,66,attribute,68,1
-attribute,70,String,"X3dValidator","name"
-attribute,71,String,"https://savage.nps.edu/X3dValidator?url=http://www.web3d.org/specifications/java/examples/HelloWorldProgramOutput.x3d","content"
+attribute,70,String,"name","X3dValidator"
+attribute,71,String,"content","https://savage.nps.edu/X3dValidator?url=http://www.web3d.org/specifications/java/examples/HelloWorldProgramOutput.x3d"
 meta,69,attribute,70,0
 meta,69,attribute,71,1
-attribute,73,String,"identifier","name"
-attribute,74,String,"http://www.web3d.org/specifications/java/examples/HelloWorldProgramOutput.x3d","content"
+attribute,73,String,"name","identifier"
+attribute,74,String,"content","http://www.web3d.org/specifications/java/examples/HelloWorldProgramOutput.x3d"
 meta,72,attribute,73,0
 meta,72,attribute,74,1
-attribute,76,String,"license","name"
-attribute,77,String,"../license.html","content"
+attribute,76,String,"name","license"
+attribute,77,String,"content","../license.html"
 meta,75,attribute,76,0
 meta,75,attribute,77,1
-attribute,79,String,"SpecialTest","name"
-attribute,80,String,"tested sat: name value cannot contain embedded space character","content"
+attribute,79,String,"name","SpecialTest"
+attribute,80,String,"content","tested sat: name value cannot contain embedded space character"
 meta,78,attribute,79,0
 meta,78,attribute,80,1
-attribute,82,String,"translated","name"
-attribute,83,String,"31 January 2018","content"
+attribute,82,String,"name","translated"
+attribute,83,String,"content","31 January 2018"
 meta,81,attribute,82,0
 meta,81,attribute,83,1
-attribute,85,String,"generator","name"
-attribute,86,String,"X3dToJson.xslt, http://www.web3d.org/x3d/stylesheets/X3dToJson.html","content"
+attribute,85,String,"name","generator"
+attribute,86,String,"content","X3dToJson.xslt, http://www.web3d.org/x3d/stylesheets/X3dToJson.html"
 meta,84,attribute,85,0
 meta,84,attribute,86,1
-attribute,88,String,"reference","name"
-attribute,89,String,"X3D JSON encoding: http://www.web3d.org/wiki/index.php/X3D_JSON_Encoding","content"
+attribute,88,String,"name","reference"
+attribute,89,String,"content","X3D JSON encoding: http://www.web3d.org/wiki/index.php/X3D_JSON_Encoding"
 meta,87,attribute,88,0
 meta,87,attribute,89,1
-head,6,String," comment #2 "," comment #1 "
-head,6,component,7,4
+head,6,String," comment #1 "," comment #2 "," comment #3 "," comment #4 "head,6,component,7,4
 head,6,component,10,5
 head,6,unit,13,6
 head,6,unit,17,7
@@ -142,15 +141,15 @@ head,6,meta,78,27
 head,6,meta,81,28
 head,6,meta,84,29
 head,6,meta,87,30
-attribute,92,String,"Available viewpoints","description"
-attribute,94,String,"DefaultView","DEF"
-attribute,95,String,"Hello X3DJSAIL","description"
+attribute,92,String,"description","Available viewpoints"
+attribute,94,String,"DEF","DefaultView"
+attribute,95,String,"description","Hello X3DJSAIL"
 Viewpoint,93,attribute,94,0
 Viewpoint,93,attribute,95,1
-attribute,97,String,"TopDownView","DEF"
-attribute,98,String,"top-down view from above","description"
-attribute,99,String,"1","orientation"
-attribute,100,String,"0","position"
+attribute,97,String,"DEF","TopDownView"
+attribute,98,String,"description","top-down view from above"
+attribute,99,String,"orientation","1","0","0","-1.570796"
+attribute,100,String,"position","0","100","0"
 Viewpoint,96,attribute,97,0
 Viewpoint,96,attribute,98,1
 Viewpoint,96,attribute,99,2
@@ -158,48 +157,48 @@ Viewpoint,96,attribute,100,3
 ViewpointGroup,91,attribute,92,0
 ViewpointGroup,91,Viewpoint,93,1
 ViewpointGroup,91,Viewpoint,96,2
-attribute,102,String,"WorldInfoDEF","DEF"
-attribute,103,String,"HelloWorldProgram produced by X3D Java SAI Library (X3DJSAIL)","title"
+attribute,102,String,"DEF","WorldInfoDEF"
+attribute,103,String,"title","HelloWorldProgram produced by X3D Java SAI Library (X3DJSAIL)"
 WorldInfo,101,attribute,102,0
 WorldInfo,101,attribute,103,1
-attribute,105,String,"WorldInfoDEF","USE"
+attribute,105,String,"USE","WorldInfoDEF"
 WorldInfo,104,attribute,105,0
-attribute,107,String,"WorldInfoDEF","USE"
+attribute,107,String,"USE","WorldInfoDEF"
 WorldInfo,106,attribute,107,0
-attribute,109,String,"test","name"
-attribute,110,String,"scene.addChildMetadataObject","DEF"
-attribute,111,String,"\"Top-level root Metadata node beneath Scene needs to be one of '-children' in JSON encoding\"","value"
+attribute,109,String,"name","test"
+attribute,110,String,"DEF","scene.addChildMetadataObject"
+attribute,111,String,"value","\"Top-level root Metadata node beneath Scene needs to be one of '-children' in JSON encoding\""
 MetadataString,108,attribute,109,0
 MetadataString,108,attribute,110,1
 MetadataString,108,attribute,111,2
-attribute,113,String,"scene.addChildLayerSetObjectTest","DEF"
+attribute,113,String,"DEF","scene.addChildLayerSetObjectTest"
 LayerSet,112,attribute,113,0
-attribute,115,String,"LogoGeometryTransform","DEF"
-attribute,116,String,"0","translation"
-attribute,118,String,"select for X3D Java SAI Library (X3DJSAIL) description","description"
-attribute,119,String,"\"../X3DJSAIL.html\"","url"
-attribute,121,String,"BoxShape","DEF"
-attribute,123,String,"appearance","containerField"
-attribute,125,String,"material","containerField"
-attribute,126,String,"GreenMaterial","DEF"
-attribute,127,String,"0","diffuseColor"
-attribute,128,String,"0.8","emissiveColor"
-attribute,129,String,"0.1","transparency"
+attribute,115,String,"DEF","LogoGeometryTransform"
+attribute,116,String,"translation","0","1.5","0"
+attribute,118,String,"description","select for X3D Java SAI Library (X3DJSAIL) description"
+attribute,119,String,"url","\"../X3DJSAIL.html\"","\"http://www.web3d.org/specifications/java/X3DJSAIL.html\""
+attribute,121,String,"DEF","BoxShape"
+attribute,123,String,"containerField","appearance"
+attribute,125,String,"containerField","material"
+attribute,126,String,"DEF","GreenMaterial"
+attribute,127,String,"diffuseColor","0","1","1"
+attribute,128,String,"emissiveColor","0.8","0","0"
+attribute,129,String,"transparency","0.1"
 Material,124,attribute,125,0
 Material,124,attribute,126,1
 Material,124,attribute,127,2
 Material,124,attribute,128,3
 Material,124,attribute,129,4
-attribute,131,String,"texture","containerField"
-attribute,132,String,"\"images/X3dJavaSceneAccessInterfaceSaiLibrary.png\"","url"
+attribute,131,String,"containerField","texture"
+attribute,132,String,"url","\"images/X3dJavaSceneAccessInterfaceSaiLibrary.png\"","\"http://www.web3d.org/specifications/java/examples/images/X3dJavaSceneAccessInterfaceSaiLibrary.png\""
 ImageTexture,130,attribute,131,0
 ImageTexture,130,attribute,132,1
 Appearance,122,attribute,123,0
 Appearance,122,Material,124,1
 Appearance,122,ImageTexture,130,2
-attribute,134,String,"geometry","containerField"
-attribute,135,String,"test-NMTOKEN_regex.0123456789","DEF"
-attribute,136,String,"untextured","class"
+attribute,134,String,"containerField","geometry"
+attribute,135,String,"DEF","test-NMTOKEN_regex.0123456789"
+attribute,136,String,"class","untextured"
 Box,133,attribute,134,0
 Box,133,attribute,135,1
 Box,133,attribute,136,2
@@ -212,18 +211,18 @@ Anchor,117,Shape,120,2
 Transform,114,attribute,115,0
 Transform,114,attribute,116,1
 Transform,114,Anchor,117,2
-attribute,138,String,"LineShape","DEF"
-attribute,140,String,"appearance","containerField"
-attribute,142,String,"material","containerField"
-attribute,143,String,"0.6","emissiveColor"
+attribute,138,String,"DEF","LineShape"
+attribute,140,String,"containerField","appearance"
+attribute,142,String,"containerField","material"
+attribute,143,String,"emissiveColor","0.6","0.19607843","0.8"
 Material,141,attribute,142,0
 Material,141,attribute,143,1
 Appearance,139,attribute,140,0
 Appearance,139,Material,141,1
-attribute,145,String,"geometry","containerField"
-attribute,146,String,"0","coordIndex"
-attribute,148,String,"coord","containerField"
-attribute,149,String,"0","point"
+attribute,145,String,"containerField","geometry"
+attribute,146,String,"coordIndex","0","1","2","3","4","0"
+attribute,148,String,"containerField","coord"
+attribute,149,String,"point","0","1.5","0","2","1.5","0","2","1.5","-2","-2","1.5","-2","-2","1.5","0","0","1.5","0"
 Coordinate,147,attribute,148,0
 Coordinate,147,attribute,149,1
 IndexedLineSet,144,attribute,145,0
@@ -232,56 +231,56 @@ IndexedLineSet,144,Coordinate,147,2
 Shape,137,attribute,138,0
 Shape,137,Appearance,139,1
 Shape,137,IndexedLineSet,144,2
-attribute,151,String,"BoxPathAnimator","DEF"
-attribute,152,String,"0","key"
-attribute,153,String,"0","keyValue"
+attribute,151,String,"DEF","BoxPathAnimator"
+attribute,152,String,"key","0","0.125","0.375","0.625","0.875","1"
+attribute,153,String,"keyValue","0","1.5","0","2","1.5","0","2","1.5","-2","-2","1.5","-2","-2","1.5","0","0","1.5","0"
 PositionInterpolator,150,attribute,151,0
 PositionInterpolator,150,attribute,152,1
 PositionInterpolator,150,attribute,153,2
-attribute,155,String,"OrbitClock","DEF"
-attribute,156,String,"8.0","cycleInterval"
-attribute,157,String,"true","loop"
+attribute,155,String,"DEF","OrbitClock"
+attribute,156,String,"cycleInterval","8.0"
+attribute,157,String,"loop","true"
 TimeSensor,154,attribute,155,0
 TimeSensor,154,attribute,156,1
 TimeSensor,154,attribute,157,2
-attribute,159,String,"fraction_changed","fromField"
-attribute,160,String,"OrbitClock","fromNode"
-attribute,161,String,"set_fraction","toField"
-attribute,162,String,"BoxPathAnimator","toNode"
+attribute,159,String,"fromField","fraction_changed"
+attribute,160,String,"fromNode","OrbitClock"
+attribute,161,String,"toField","set_fraction"
+attribute,162,String,"toNode","BoxPathAnimator"
 ROUTE,158,attribute,159,0
 ROUTE,158,attribute,160,1
 ROUTE,158,attribute,161,2
 ROUTE,158,attribute,162,3
-attribute,164,String,"value_changed","fromField"
-attribute,165,String,"BoxPathAnimator","fromNode"
-attribute,166,String,"set_translation","toField"
-attribute,167,String,"LogoGeometryTransform","toNode"
+attribute,164,String,"fromField","value_changed"
+attribute,165,String,"fromNode","BoxPathAnimator"
+attribute,166,String,"toField","set_translation"
+attribute,167,String,"toNode","LogoGeometryTransform"
 ROUTE,163,attribute,164,0
 ROUTE,163,attribute,165,1
 ROUTE,163,attribute,166,2
 ROUTE,163,attribute,167,3
-attribute,169,String,"TextTransform","DEF"
-attribute,170,String,"0","translation"
-attribute,173,String,"appearance","containerField"
-attribute,175,String,"material","containerField"
-attribute,176,String,"GreenMaterial","USE"
+attribute,169,String,"DEF","TextTransform"
+attribute,170,String,"translation","0","-1.5","0"
+attribute,173,String,"containerField","appearance"
+attribute,175,String,"containerField","material"
+attribute,176,String,"USE","GreenMaterial"
 Material,174,attribute,175,0
 Material,174,attribute,176,1
 Appearance,172,attribute,173,0
 Appearance,172,Material,174,1
-attribute,178,String,"geometry","containerField"
-attribute,179,String,"\"X3D Java\"","string"
-attribute,181,String,"metadata","containerField"
-attribute,182,String,"EscapedQuotationMarksMetadataSet","name"
-attribute,184,String,"value","containerField"
-attribute,185,String,"quotesTestC","name"
-attribute,186,String,"\"MFString example C, backslash-escaped quotes: He said, \\"Immel did it!\\"\"","value"
+attribute,178,String,"containerField","geometry"
+attribute,179,String,"string","\"X3D Java\"","\"SAI Library\"","\"X3DJSAIL\""
+attribute,181,String,"containerField","metadata"
+attribute,182,String,"name","EscapedQuotationMarksMetadataSet"
+attribute,184,String,"containerField","value"
+attribute,185,String,"name","quotesTestC"
+attribute,186,String,"value","\"MFString example C, backslash-escaped quotes: He said, \\"Immel did it!\\"\""
 MetadataString,183,attribute,184,0
 MetadataString,183,attribute,185,1
 MetadataString,183,attribute,186,2
-attribute,188,String,"value","containerField"
-attribute,189,String,"extraChildTest","name"
-attribute,190,String,"\"checks MetadataSetObject addValue() method\"","value"
+attribute,188,String,"containerField","value"
+attribute,189,String,"name","extraChildTest"
+attribute,190,String,"value","\"checks MetadataSetObject addValue() method\""
 MetadataString,187,attribute,188,0
 MetadataString,187,attribute,189,1
 MetadataString,187,attribute,190,2
@@ -289,109 +288,112 @@ MetadataSet,180,attribute,181,0
 MetadataSet,180,attribute,182,1
 MetadataSet,180,MetadataString,183,2
 MetadataSet,180,MetadataString,187,3
-attribute,192,String,"fontStyle","containerField"
-attribute,193,String,"\"MIDDLE\"","justify"
+attribute,192,String,"containerField","fontStyle"
+attribute,193,String,"justify","\"MIDDLE\"","\"MIDDLE\""
 FontStyle,191,attribute,192,0
 FontStyle,191,attribute,193,1
 Text,177,attribute,178,0
 Text,177,attribute,179,1
-Text,177,MetadataSet,180,4
+," Comment example A, plain quotation marks: He said, \"Immel did it!\" "," Comment example B, XML character entities: He said, &quot;Immel did it!&quot; "Text,177,MetadataSet,180,4
 Text,177,FontStyle,191,5
 Shape,171,Appearance,172,0
 Shape,171,Text,177,1
-attribute,196,String,"proxy","containerField"
-attribute,197,String,"ProxyShape","DEF"
-attribute,199,String,"geometry","containerField"
-attribute,200,String,"\"One, Two, Three\"","string"
+attribute,196,String,"containerField","proxy"
+attribute,197,String,"DEF","ProxyShape"
+attribute,199,String,"containerField","geometry"
+attribute,200,String,"string","\"One, Two, Three\"","\"\"","\"He said, \\"Immel did it!\\"\""
 Text,198,attribute,199,0
 Text,198,attribute,200,1
 Shape,195,attribute,196,0
 Shape,195,attribute,197,1
-Shape,195,Text,198,5
-Collision,194,Shape,195,1
+," alternative XML encoding: Text string='\"One, Two, Three\", \" \", \"He said, \\&quot;Immel did it!\\&quot;\"' "," alternative Java source: .setString(new String [] {\"One, Two, Three\", \" \", \"He said, \"Immel did it!\" \"}) "," reference: http://www.web3d.org/x3d/content/examples/Basic/X3dSpecifications/StringArrayEncodingExamplesIndex.html "Shape,195,Text,198,5
+Collision,194,String," test containerField='proxy' "Collision,194,Shape,195,1
 Transform,168,attribute,169,0
 Transform,168,attribute,170,1
 Transform,168,Shape,171,2
 Transform,168,Collision,194,3
-attribute,202,String,"SpinInterpolator","DEF"
-attribute,203,String,"0","key"
-attribute,204,String,"0","keyValue"
+," It's a beautiful world "," ... for you! "," https://en.wikipedia.org/wiki/Beautiful_World_(Devo_song) "
+attribute,202,String,"DEF","SpinInterpolator"
+attribute,203,String,"key","0","0.5","1"
+attribute,204,String,"keyValue","0","1","0","4.712389","0","1","0","0","0","1","0","1.5707964"
 OrientationInterpolator,201,attribute,202,0
 OrientationInterpolator,201,attribute,203,1
 OrientationInterpolator,201,attribute,204,2
-attribute,206,String,"SpinClock","DEF"
-attribute,207,String,"5.0","cycleInterval"
-attribute,208,String,"true","loop"
+attribute,206,String,"DEF","SpinClock"
+attribute,207,String,"cycleInterval","5.0"
+attribute,208,String,"loop","true"
 TimeSensor,205,attribute,206,0
 TimeSensor,205,attribute,207,1
 TimeSensor,205,attribute,208,2
-attribute,210,String,"fraction_changed","fromField"
-attribute,211,String,"SpinClock","fromNode"
-attribute,212,String,"set_fraction","toField"
-attribute,213,String,"SpinInterpolator","toNode"
+attribute,210,String,"fromField","fraction_changed"
+attribute,211,String,"fromNode","SpinClock"
+attribute,212,String,"toField","set_fraction"
+attribute,213,String,"toNode","SpinInterpolator"
 ROUTE,209,attribute,210,0
 ROUTE,209,attribute,211,1
 ROUTE,209,attribute,212,2
 ROUTE,209,attribute,213,3
-attribute,215,String,"value_changed","fromField"
-attribute,216,String,"SpinInterpolator","fromNode"
-attribute,217,String,"rotation","toField"
-attribute,218,String,"TextTransform","toNode"
+attribute,215,String,"fromField","value_changed"
+attribute,216,String,"fromNode","SpinInterpolator"
+attribute,217,String,"toField","rotation"
+attribute,218,String,"toNode","TextTransform"
 ROUTE,214,attribute,215,0
 ROUTE,214,attribute,216,1
 ROUTE,214,attribute,217,2
 ROUTE,214,attribute,218,3
-attribute,220,String,"BackgroundGroup","DEF"
-attribute,222,String,"GradualBackground","DEF"
+attribute,220,String,"DEF","BackgroundGroup"
+attribute,222,String,"DEF","GradualBackground"
 Background,221,attribute,222,0
-attribute,224,String,"colorTypeConversionScript","DEF"
-attribute,226,String,"colorInput","name"
-attribute,227,String,"inputOnly","accessType"
-attribute,228,String,"SFColor","type"
+attribute,224,String,"DEF","colorTypeConversionScript"
+attribute,226,String,"name","colorInput"
+attribute,227,String,"accessType","inputOnly"
+attribute,228,String,"type","SFColor"
 field,225,attribute,226,0
 field,225,attribute,227,1
 field,225,attribute,228,2
-attribute,230,String,"colorsOutput","name"
-attribute,231,String,"outputOnly","accessType"
-attribute,232,String,"MFColor","type"
+attribute,230,String,"name","colorsOutput"
+attribute,231,String,"accessType","outputOnly"
+attribute,232,String,"type","MFColor"
 field,229,attribute,230,0
 field,229,attribute,231,1
 field,229,attribute,232,2
 Script,223,attribute,224,0
 Script,223,field,225,1
 Script,223,field,229,2
-attribute,234,String,"ColorAnimator","DEF"
-attribute,235,String,"0","key"
-attribute,236,String,"0.9411765","keyValue"
+,"ecmascript: function colorInput (eventValue) // Example source code { colorsOutput = new MFColor(eventValue); // assigning value sends output event // Browser.print('colorInput=' + eventValue + ', colorsOutput=' + colorsOutput + '\n'); }"
+attribute,234,String,"DEF","ColorAnimator"
+attribute,235,String,"key","0","0.5","1"
+attribute,236,String,"keyValue","0.9411765","1","1","0.29411766","0","0.50980395","0.9411765","1","1"
 ColorInterpolator,233,attribute,234,0
 ColorInterpolator,233,attribute,235,1
 ColorInterpolator,233,attribute,236,2
-attribute,238,String,"ColorClock","DEF"
-attribute,239,String,"60.0","cycleInterval"
-attribute,240,String,"true","loop"
+," AZURE to INDIGO and back again "
+attribute,238,String,"DEF","ColorClock"
+attribute,239,String,"cycleInterval","60.0"
+attribute,240,String,"loop","true"
 TimeSensor,237,attribute,238,0
 TimeSensor,237,attribute,239,1
 TimeSensor,237,attribute,240,2
-attribute,242,String,"colorsOutput","fromField"
-attribute,243,String,"colorTypeConversionScript","fromNode"
-attribute,244,String,"skyColor","toField"
-attribute,245,String,"GradualBackground","toNode"
+attribute,242,String,"fromField","colorsOutput"
+attribute,243,String,"fromNode","colorTypeConversionScript"
+attribute,244,String,"toField","skyColor"
+attribute,245,String,"toNode","GradualBackground"
 ROUTE,241,attribute,242,0
 ROUTE,241,attribute,243,1
 ROUTE,241,attribute,244,2
 ROUTE,241,attribute,245,3
-attribute,247,String,"value_changed","fromField"
-attribute,248,String,"ColorAnimator","fromNode"
-attribute,249,String,"colorInput","toField"
-attribute,250,String,"colorTypeConversionScript","toNode"
+attribute,247,String,"fromField","value_changed"
+attribute,248,String,"fromNode","ColorAnimator"
+attribute,249,String,"toField","colorInput"
+attribute,250,String,"toNode","colorTypeConversionScript"
 ROUTE,246,attribute,247,0
 ROUTE,246,attribute,248,1
 ROUTE,246,attribute,249,2
 ROUTE,246,attribute,250,3
-attribute,252,String,"fraction_changed","fromField"
-attribute,253,String,"ColorClock","fromNode"
-attribute,254,String,"set_fraction","toField"
-attribute,255,String,"ColorAnimator","toNode"
+attribute,252,String,"fromField","fraction_changed"
+attribute,253,String,"fromNode","ColorClock"
+attribute,254,String,"toField","set_fraction"
+attribute,255,String,"toNode","ColorAnimator"
 ROUTE,251,attribute,252,0
 ROUTE,251,attribute,253,1
 ROUTE,251,attribute,254,2
@@ -404,62 +406,62 @@ Group,219,TimeSensor,237,4
 Group,219,ROUTE,241,5
 Group,219,ROUTE,246,6
 Group,219,ROUTE,251,7
-attribute,257,String,"ArtDeco01Material","name"
-attribute,258,String,"tooltip: ArtDeco01Material prototype is a Material node","appinfo"
-attribute,261,String,"description","name"
-attribute,262,String,"inputOutput","accessType"
-attribute,263,String,"tooltip for descriptionField","appinfo"
-attribute,264,String,"SFString","type"
-attribute,265,String,"ArtDeco01Material prototype is a Material node","value"
+attribute,257,String,"name","ArtDeco01Material"
+attribute,258,String,"appinfo","tooltip: ArtDeco01Material prototype is a Material node"
+attribute,261,String,"name","description"
+attribute,262,String,"accessType","inputOutput"
+attribute,263,String,"appinfo","tooltip for descriptionField"
+attribute,264,String,"type","SFString"
+attribute,265,String,"value","ArtDeco01Material prototype is a Material node"
 field,260,attribute,261,0
 field,260,attribute,262,1
 field,260,attribute,263,2
 field,260,attribute,264,3
 field,260,attribute,265,4
-attribute,267,String,"enabled","name"
-attribute,268,String,"inputOutput","accessType"
-attribute,269,String,"SFBool","type"
-attribute,270,String,"true","value"
+attribute,267,String,"name","enabled"
+attribute,268,String,"accessType","inputOutput"
+attribute,269,String,"type","SFBool"
+attribute,270,String,"value","true"
 field,266,attribute,267,0
 field,266,attribute,268,1
 field,266,attribute,269,2
 field,266,attribute,270,3
 ProtoInterface,259,field,260,0
 ProtoInterface,259,field,266,1
-attribute,273,String,"0.25","ambientIntensity"
-attribute,274,String,"0.282435","diffuseColor"
-attribute,275,String,"0.127273","shininess"
-attribute,276,String,"0.276305","specularColor"
+attribute,273,String,"ambientIntensity","0.25"
+attribute,274,String,"diffuseColor","0.282435","0.085159","0.134462"
+attribute,275,String,"shininess","0.127273"
+attribute,276,String,"specularColor","0.276305","0.11431","0.139857"
 Material,272,attribute,273,0
 Material,272,attribute,274,1
 Material,272,attribute,275,2
 Material,272,attribute,276,3
-attribute,278,String,"within ProtoBody","description"
-attribute,281,String,"description","nodeField"
-attribute,282,String,"description","protoField"
+attribute,278,String,"description","within ProtoBody"
+attribute,281,String,"nodeField","description"
+attribute,282,String,"protoField","description"
 connect,280,attribute,281,0
 connect,280,attribute,282,1
-attribute,284,String,"enabled","nodeField"
-attribute,285,String,"enabled","protoField"
+attribute,284,String,"nodeField","enabled"
+attribute,285,String,"protoField","enabled"
 connect,283,attribute,284,0
 connect,283,attribute,285,1
 IS,279,connect,280,0
 IS,279,connect,283,1
 TouchSensor,277,attribute,278,0
 TouchSensor,277,IS,279,1
-ProtoBody,271,Material,272,1
-ProtoBody,271,TouchSensor,277,4
+ProtoBody,271,String," Initial node of ProtoBody determines prototype node type "ProtoBody,271,Material,272,1
+," [HelloWorldProgram diagnostic] should be connected to scene graph: ArtDeco01ProtoDeclare.getNodeType()=\"Material\" "," presence of follow-on TouchSensor shows that additional nodes are allowed in ProtoBody after initial node, regardless of node types "ProtoBody,271,TouchSensor,277,4
 ProtoDeclare,256,attribute,257,0
 ProtoDeclare,256,attribute,258,1
 ProtoDeclare,256,ProtoInterface,259,2
 ProtoDeclare,256,ProtoBody,271,3
-attribute,287,String,"ArtDeco02Material","name"
-attribute,288,String,"this is a different Material node","appinfo"
-attribute,289,String,"\"http://X3dGraphics.com/examples/X3dForWebAuthors/Chapter14Prototypes/ArtDecoPrototypesExcerpt.x3d#ArtDeco02Material\"","url"
-attribute,291,String,"description","name"
-attribute,292,String,"inputOutput","accessType"
-attribute,293,String,"tooltip for descriptionField","appinfo"
-attribute,294,String,"SFString","type"
+attribute,287,String,"name","ArtDeco02Material"
+attribute,288,String,"appinfo","this is a different Material node"
+attribute,289,String,"url","\"http://X3dGraphics.com/examples/X3dForWebAuthors/Chapter14Prototypes/ArtDecoPrototypesExcerpt.x3d#ArtDeco02Material\"","\"http://X3dGraphics.com/examples/X3dForWebAuthors/Chapter14Prototypes/ArtDecoPrototypesExcerpt.x3dv#ArtDeco02Material\""
+attribute,291,String,"name","description"
+attribute,292,String,"accessType","inputOutput"
+attribute,293,String,"appinfo","tooltip for descriptionField"
+attribute,294,String,"type","SFString"
 field,290,attribute,291,0
 field,290,attribute,292,1
 field,290,attribute,293,2
@@ -467,147 +469,147 @@ field,290,attribute,294,3
 ExternProtoDeclare,286,attribute,287,0
 ExternProtoDeclare,286,attribute,288,1
 ExternProtoDeclare,286,attribute,289,2
-ExternProtoDeclare,286,field,290,4
-attribute,296,String,"TestShape1","DEF"
-attribute,298,String,"appearance","containerField"
-attribute,299,String,"TestAppearance1","DEF"
-attribute,301,String,"material","containerField"
-attribute,302,String,"ArtDeco01Material","name"
-attribute,304,String,"material","containerField"
-attribute,305,String,"description","name"
-attribute,306,String,"ArtDeco01Material can substitute for a Material node","value"
+," [HelloWorldProgram diagnostic] ArtDeco02ExternProtoDeclare.getNodeType()=\"ERROR_UNKNOWN_EXTERNPROTODECLARE_NODE_TYPE: ExternProtoDeclare name='ArtDeco02Material' type cannot be remotely accessed at run time, TODO X3DJSAIL needs to add further capability.\" "ExternProtoDeclare,286,field,290,4
+attribute,296,String,"DEF","TestShape1"
+attribute,298,String,"containerField","appearance"
+attribute,299,String,"DEF","TestAppearance1"
+attribute,301,String,"containerField","material"
+attribute,302,String,"name","ArtDeco01Material"
+attribute,304,String,"containerField","material"
+attribute,305,String,"name","description"
+attribute,306,String,"value","ArtDeco01Material can substitute for a Material node"
 fieldValue,303,attribute,304,0
 fieldValue,303,attribute,305,1
 fieldValue,303,attribute,306,2
 ProtoInstance,300,attribute,301,0
 ProtoInstance,300,attribute,302,1
-ProtoInstance,300,fieldValue,303,3
+," [HelloWorldProgram diagnostic] ArtDeco01ProtoInstance.getNodeType()=\"Material\" "ProtoInstance,300,fieldValue,303,3
 Appearance,297,attribute,298,0
 Appearance,297,attribute,299,1
-Appearance,297,ProtoInstance,300,3
-attribute,308,String,"geometry","containerField"
-attribute,309,String,"0.001","radius"
+," ArtDeco01Material prototype goes here... TODO ensure setContainerField is handled in exported Java "Appearance,297,ProtoInstance,300,3
+attribute,308,String,"containerField","geometry"
+attribute,309,String,"radius","0.001"
 Sphere,307,attribute,308,0
 Sphere,307,attribute,309,1
 Shape,295,attribute,296,0
 Shape,295,Appearance,297,1
 Shape,295,Sphere,307,2
-attribute,311,String,"TestShape2","DEF"
-attribute,313,String,"appearance","containerField"
-attribute,314,String,"TestAppearance2","DEF"
-attribute,316,String,"material","containerField"
-attribute,317,String,"ArtDeco02Material","name"
-attribute,318,String,"ArtDeco02MaterialDEF","DEF"
-attribute,320,String,"material","containerField"
-attribute,321,String,"description","name"
-attribute,322,String,"ArtDeco02Material can substitute for another Material node","value"
+attribute,311,String,"DEF","TestShape2"
+attribute,313,String,"containerField","appearance"
+attribute,314,String,"DEF","TestAppearance2"
+attribute,316,String,"containerField","material"
+attribute,317,String,"name","ArtDeco02Material"
+attribute,318,String,"DEF","ArtDeco02MaterialDEF"
+attribute,320,String,"containerField","material"
+attribute,321,String,"name","description"
+attribute,322,String,"value","ArtDeco02Material can substitute for another Material node"
 fieldValue,319,attribute,320,0
 fieldValue,319,attribute,321,1
 fieldValue,319,attribute,322,2
 ProtoInstance,315,attribute,316,0
 ProtoInstance,315,attribute,317,1
 ProtoInstance,315,attribute,318,2
-ProtoInstance,315,fieldValue,319,4
+," [HelloWorldProgram diagnostic] ArtDeco02ProtoInstance.getNodeType()=\"ERROR_UNKNOWN_EXTERNPROTODECLARE_NODE_TYPE: ExternProtoDeclare name='ArtDeco02Material' type cannot be remotely accessed at run time, TODO X3DJSAIL needs to add further capability.\" "ProtoInstance,315,fieldValue,319,4
 Appearance,312,attribute,313,0
 Appearance,312,attribute,314,1
-Appearance,312,ProtoInstance,315,3
-attribute,324,String,"geometry","containerField"
-attribute,325,String,"0.001","bottomRadius"
-attribute,326,String,"0.001","height"
+," ArtDeco02Material prototype goes here... TODO ensure setContainerField is handled in exported Java "Appearance,312,ProtoInstance,315,3
+attribute,324,String,"containerField","geometry"
+attribute,325,String,"bottomRadius","0.001"
+attribute,326,String,"height","0.001"
 Cone,323,attribute,324,0
 Cone,323,attribute,325,1
 Cone,323,attribute,326,2
 Shape,310,attribute,311,0
 Shape,310,Appearance,312,1
 Shape,310,Cone,323,2
-attribute,328,String,"TestShape3","DEF"
-attribute,330,String,"appearance","containerField"
-attribute,331,String,"TestAppearance3","DEF"
-attribute,333,String,"material","containerField"
-attribute,334,String,"ArtDeco02MaterialDEF","USE"
+attribute,328,String,"DEF","TestShape3"
+attribute,330,String,"containerField","appearance"
+attribute,331,String,"DEF","TestAppearance3"
+attribute,333,String,"containerField","material"
+attribute,334,String,"USE","ArtDeco02MaterialDEF"
 ProtoInstance,332,attribute,333,0
 ProtoInstance,332,attribute,334,1
 Appearance,329,attribute,330,0
 Appearance,329,attribute,331,1
-Appearance,329,ProtoInstance,332,3
-attribute,336,String,"geometry","containerField"
-attribute,337,String,"0.001","height"
-attribute,338,String,"0.001","radius"
+," ArtDeco02Material ProtoInstance USE goes here... "Appearance,329,ProtoInstance,332,3
+attribute,336,String,"containerField","geometry"
+attribute,337,String,"height","0.001"
+attribute,338,String,"radius","0.001"
 Cylinder,335,attribute,336,0
 Cylinder,335,attribute,337,1
 Cylinder,335,attribute,338,2
 Shape,327,attribute,328,0
 Shape,327,Appearance,329,1
 Shape,327,Cylinder,335,2
-attribute,340,String,"inlineSceneDef","DEF"
-attribute,341,String,"\"someOtherScene.x3d\"","url"
+attribute,340,String,"DEF","inlineSceneDef"
+attribute,341,String,"url","\"someOtherScene.x3d\""
 Inline,339,attribute,340,0
 Inline,339,attribute,341,1
-attribute,343,String,"WorldInfoDEF2","AS"
-attribute,344,String,"WorldInfoDEF","importedDEF"
-attribute,345,String,"inlineSceneDef","inlineDEF"
+attribute,343,String,"AS","WorldInfoDEF2"
+attribute,344,String,"importedDEF","WorldInfoDEF"
+attribute,345,String,"inlineDEF","inlineSceneDef"
 IMPORT,342,attribute,343,0
 IMPORT,342,attribute,344,1
 IMPORT,342,attribute,345,2
-attribute,347,String,"WorldInfoDEF3","AS"
-attribute,348,String,"WorldInfoDEF","localDEF"
+attribute,347,String,"AS","WorldInfoDEF3"
+attribute,348,String,"localDEF","WorldInfoDEF"
 EXPORT,346,attribute,347,0
 EXPORT,346,attribute,348,1
-attribute,350,String,"MaterialModulator","name"
-attribute,351,String,"mimic a Material node and modulate fields as an animation effect","appinfo"
-attribute,352,String,"http://x3dgraphics.com/examples/X3dForWebAuthors/Chapter14Prototypes/MaterialModulatorIndex.html","documentation"
-attribute,355,String,"enabled","name"
-attribute,356,String,"inputOutput","accessType"
-attribute,357,String,"SFBool","type"
-attribute,358,String,"true","value"
+attribute,350,String,"name","MaterialModulator"
+attribute,351,String,"appinfo","mimic a Material node and modulate fields as an animation effect"
+attribute,352,String,"documentation","http://x3dgraphics.com/examples/X3dForWebAuthors/Chapter14Prototypes/MaterialModulatorIndex.html"
+attribute,355,String,"name","enabled"
+attribute,356,String,"accessType","inputOutput"
+attribute,357,String,"type","SFBool"
+attribute,358,String,"value","true"
 field,354,attribute,355,0
 field,354,attribute,356,1
 field,354,attribute,357,2
 field,354,attribute,358,3
-attribute,360,String,"diffuseColor","name"
-attribute,361,String,"inputOutput","accessType"
-attribute,362,String,"SFColor","type"
-attribute,363,String,"0","value"
+attribute,360,String,"name","diffuseColor"
+attribute,361,String,"accessType","inputOutput"
+attribute,362,String,"type","SFColor"
+attribute,363,String,"value","0","0","0"
 field,359,attribute,360,0
 field,359,attribute,361,1
 field,359,attribute,362,2
 field,359,attribute,363,3
-attribute,365,String,"emissiveColor","name"
-attribute,366,String,"inputOutput","accessType"
-attribute,367,String,"SFColor","type"
-attribute,368,String,"0.05","value"
+attribute,365,String,"name","emissiveColor"
+attribute,366,String,"accessType","inputOutput"
+attribute,367,String,"type","SFColor"
+attribute,368,String,"value","0.05","0.05","0.5"
 field,364,attribute,365,0
 field,364,attribute,366,1
 field,364,attribute,367,2
 field,364,attribute,368,3
-attribute,370,String,"specularColor","name"
-attribute,371,String,"inputOutput","accessType"
-attribute,372,String,"SFColor","type"
-attribute,373,String,"0","value"
+attribute,370,String,"name","specularColor"
+attribute,371,String,"accessType","inputOutput"
+attribute,372,String,"type","SFColor"
+attribute,373,String,"value","0","0","0"
 field,369,attribute,370,0
 field,369,attribute,371,1
 field,369,attribute,372,2
 field,369,attribute,373,3
-attribute,375,String,"transparency","name"
-attribute,376,String,"inputOutput","accessType"
-attribute,377,String,"SFFloat","type"
-attribute,378,String,"0.0","value"
+attribute,375,String,"name","transparency"
+attribute,376,String,"accessType","inputOutput"
+attribute,377,String,"type","SFFloat"
+attribute,378,String,"value","0.0"
 field,374,attribute,375,0
 field,374,attribute,376,1
 field,374,attribute,377,2
 field,374,attribute,378,3
-attribute,380,String,"shininess","name"
-attribute,381,String,"inputOutput","accessType"
-attribute,382,String,"SFFloat","type"
-attribute,383,String,"0.0","value"
+attribute,380,String,"name","shininess"
+attribute,381,String,"accessType","inputOutput"
+attribute,382,String,"type","SFFloat"
+attribute,383,String,"value","0.0"
 field,379,attribute,380,0
 field,379,attribute,381,1
 field,379,attribute,382,2
 field,379,attribute,383,3
-attribute,385,String,"ambientIntensity","name"
-attribute,386,String,"inputOutput","accessType"
-attribute,387,String,"SFFloat","type"
-attribute,388,String,"0.0","value"
+attribute,385,String,"name","ambientIntensity"
+attribute,386,String,"accessType","inputOutput"
+attribute,387,String,"type","SFFloat"
+attribute,388,String,"value","0.0"
 field,384,attribute,385,0
 field,384,attribute,386,1
 field,384,attribute,387,2
@@ -619,29 +621,29 @@ ProtoInterface,353,field,369,3
 ProtoInterface,353,field,374,4
 ProtoInterface,353,field,379,5
 ProtoInterface,353,field,384,6
-attribute,391,String,"MaterialNode","DEF"
-attribute,394,String,"diffuseColor","nodeField"
-attribute,395,String,"diffuseColor","protoField"
+attribute,391,String,"DEF","MaterialNode"
+attribute,394,String,"nodeField","diffuseColor"
+attribute,395,String,"protoField","diffuseColor"
 connect,393,attribute,394,0
 connect,393,attribute,395,1
-attribute,397,String,"emissiveColor","nodeField"
-attribute,398,String,"emissiveColor","protoField"
+attribute,397,String,"nodeField","emissiveColor"
+attribute,398,String,"protoField","emissiveColor"
 connect,396,attribute,397,0
 connect,396,attribute,398,1
-attribute,400,String,"specularColor","nodeField"
-attribute,401,String,"specularColor","protoField"
+attribute,400,String,"nodeField","specularColor"
+attribute,401,String,"protoField","specularColor"
 connect,399,attribute,400,0
 connect,399,attribute,401,1
-attribute,403,String,"transparency","nodeField"
-attribute,404,String,"transparency","protoField"
+attribute,403,String,"nodeField","transparency"
+attribute,404,String,"protoField","transparency"
 connect,402,attribute,403,0
 connect,402,attribute,404,1
-attribute,406,String,"shininess","nodeField"
-attribute,407,String,"shininess","protoField"
+attribute,406,String,"nodeField","shininess"
+attribute,407,String,"protoField","shininess"
 connect,405,attribute,406,0
 connect,405,attribute,407,1
-attribute,409,String,"ambientIntensity","nodeField"
-attribute,410,String,"ambientIntensity","protoField"
+attribute,409,String,"nodeField","ambientIntensity"
+attribute,410,String,"protoField","ambientIntensity"
 connect,408,attribute,409,0
 connect,408,attribute,410,1
 IS,392,connect,393,0
@@ -652,37 +654,37 @@ IS,392,connect,405,4
 IS,392,connect,408,5
 Material,390,attribute,391,0
 Material,390,IS,392,1
-attribute,412,String,"MaterialModulatorScript","DEF"
-attribute,414,String,"enabled","name"
-attribute,415,String,"inputOutput","accessType"
-attribute,416,String,"SFBool","type"
+attribute,412,String,"DEF","MaterialModulatorScript"
+attribute,414,String,"name","enabled"
+attribute,415,String,"accessType","inputOutput"
+attribute,416,String,"type","SFBool"
 field,413,attribute,414,0
 field,413,attribute,415,1
 field,413,attribute,416,2
-attribute,418,String,"diffuseColor","name"
-attribute,419,String,"inputOutput","accessType"
-attribute,420,String,"SFColor","type"
+attribute,418,String,"name","diffuseColor"
+attribute,419,String,"accessType","inputOutput"
+attribute,420,String,"type","SFColor"
 field,417,attribute,418,0
 field,417,attribute,419,1
 field,417,attribute,420,2
-attribute,422,String,"newColor","name"
-attribute,423,String,"outputOnly","accessType"
-attribute,424,String,"SFColor","type"
+attribute,422,String,"name","newColor"
+attribute,423,String,"accessType","outputOnly"
+attribute,424,String,"type","SFColor"
 field,421,attribute,422,0
 field,421,attribute,423,1
 field,421,attribute,424,2
-attribute,426,String,"clockTrigger","name"
-attribute,427,String,"inputOnly","accessType"
-attribute,428,String,"SFTime","type"
+attribute,426,String,"name","clockTrigger"
+attribute,427,String,"accessType","inputOnly"
+attribute,428,String,"type","SFTime"
 field,425,attribute,426,0
 field,425,attribute,427,1
 field,425,attribute,428,2
-attribute,431,String,"enabled","nodeField"
-attribute,432,String,"enabled","protoField"
+attribute,431,String,"nodeField","enabled"
+attribute,432,String,"protoField","enabled"
 connect,430,attribute,431,0
 connect,430,attribute,432,1
-attribute,434,String,"diffuseColor","nodeField"
-attribute,435,String,"diffuseColor","protoField"
+attribute,434,String,"nodeField","diffuseColor"
+attribute,435,String,"protoField","diffuseColor"
 connect,433,attribute,434,0
 connect,433,attribute,435,1
 IS,429,connect,430,0
@@ -693,38 +695,38 @@ Script,411,field,417,2
 Script,411,field,421,3
 Script,411,field,425,4
 Script,411,IS,429,5
+,"ecmascript: function initialize () { newColor = diffuseColor; // start with correct color } function set_enabled (newValue) { enabled = newValue; } function clockTrigger (timeValue) { if (!enabled) return; red = newColor.r; green = newColor.g; blue = newColor.b; // note different modulation rates for each color component, % is modulus operator newColor = new SFColor ((red + 0.02) % 1, (green + 0.03) % 1, (blue + 0.04) % 1); if (enabled) { Browser.print ('diffuseColor=(' + red + ',' + green + ',' + blue + ') newColor=' + newColor.toString() + '\n'); } }"
 ProtoBody,389,Material,390,0
-ProtoBody,389,String," Only first node (the node type) is renderable, others are along for the ride ",
-ProtoBody,389,Script,411,2
+," Only first node (the node type) is renderable, others are along for the ride "ProtoBody,389,Script,411,2
 ProtoDeclare,349,attribute,350,0
 ProtoDeclare,349,attribute,351,1
 ProtoDeclare,349,attribute,352,2
 ProtoDeclare,349,ProtoInterface,353,3
 ProtoDeclare,349,ProtoBody,389,4
-attribute,437,String,"DeclarativeGroupExample","DEF"
-attribute,440,String,"metadata","containerField"
-attribute,441,String,"findThisNameValue","name"
-attribute,442,String,"FindableMetadataStringTest","DEF"
-attribute,443,String,"\"test case\"","value"
+attribute,437,String,"DEF","DeclarativeGroupExample"
+attribute,440,String,"containerField","metadata"
+attribute,441,String,"name","findThisNameValue"
+attribute,442,String,"DEF","FindableMetadataStringTest"
+attribute,443,String,"value","\"test case\""
 MetadataString,439,attribute,440,0
 MetadataString,439,attribute,441,1
 MetadataString,439,attribute,442,2
 MetadataString,439,attribute,443,3
-attribute,445,String,"appearance","containerField"
-attribute,446,String,"DeclarativeAppearanceExample","DEF"
-attribute,448,String,"material","containerField"
-attribute,449,String,"MaterialModulator","name"
-attribute,450,String,"MyMaterialModulator","DEF"
+attribute,445,String,"containerField","appearance"
+attribute,446,String,"DEF","DeclarativeAppearanceExample"
+attribute,448,String,"containerField","material"
+attribute,449,String,"name","MaterialModulator"
+attribute,450,String,"DEF","MyMaterialModulator"
 ProtoInstance,447,attribute,448,0
 ProtoInstance,447,attribute,449,1
 ProtoInstance,447,attribute,450,2
 Appearance,444,attribute,445,0
 Appearance,444,attribute,446,1
-Appearance,444,ProtoInstance,447,3
-attribute,452,String,"geometry","containerField"
-attribute,453,String,"false","bottom"
-attribute,454,String,"0.05","bottomRadius"
-attribute,455,String,"0.1","height"
+," DeclarativeMaterialExample gets overridden by subsequently added MaterialModulator ProtoInstance "Appearance,444,ProtoInstance,447,3
+attribute,452,String,"containerField","geometry"
+attribute,453,String,"bottom","false"
+attribute,454,String,"bottomRadius","0.05"
+attribute,455,String,"height","0.1"
 Cone,451,attribute,452,0
 Cone,451,attribute,453,1
 Cone,451,attribute,454,2
@@ -734,46 +736,46 @@ Shape,438,Appearance,444,1
 Shape,438,Cone,451,2
 Group,436,attribute,437,0
 Group,436,Shape,438,1
-attribute,457,String,"TestFieldObjectsGroup","DEF"
+," Test success: declarativeGroup.addChild() singleton pipeline method "
+attribute,457,String,"DEF","TestFieldObjectsGroup"
 Group,456,attribute,457,0
-Group,456,String," testFieldObjects() results ",
-attribute,459,String,"0","location"
-attribute,461,String,"source","containerField"
-attribute,462,String,"chimes","description"
-attribute,463,String,"\"chimes.wav\"","url"
+," testFieldObjects() results "," SFBool default=true, true=true, false=false, negate()=true "," MFBool default=, initial=true false true, negate()=false true false "," SFFloat default=0.0, initial=1.0, setValue(2)=2.0, setValue(3.0f)=3.0, setValue(4.0)=4.0 "," MFFloat default=, initial=1 2 3, append(5)=1 2 3 5, inserts(3,4)(0,0)=0 1 2 3 4 5, append(6)=0 1 2 3 4 5 6, size()=7 "," ... get1Value[3]=3.0, remove[1]=0 2 3 4 5 6, set1Value(0,10)=10 2 3 4 5 6, multiply(2)=20 4 6 8 10 12, clear= "," SFVec3f default=0 0 0, initial=1 2 3, setValue=4 5 6, multiply(2)=8 10 12, normalize()=0.45584232 0.5698029 0.68376344 "
+attribute,459,String,"location","0","1.6","0"
+attribute,461,String,"containerField","source"
+attribute,462,String,"description","chimes"
+attribute,463,String,"url","\"chimes.wav\"","\"http://www.web3d.org/x3d/content/examples/ConformanceNist/Sounds/AudioClip/chimes.wav\""
 AudioClip,460,attribute,461,0
 AudioClip,460,attribute,462,1
 AudioClip,460,attribute,463,2
+," Scene example fragment from http://www.web3d.org/x3d/content/examples/ConformanceNist/Sounds/AudioClip/default.x3d "
 Sound,458,attribute,459,0
-Sound,458,String," set sound-ellipsoid location height at 1.6m to match typical avatar height ",
-Sound,458,AudioClip,460,2
-attribute,465,String,"0","location"
-attribute,467,String,"source","containerField"
-attribute,468,String,"mpgsys.mpg from ConformanceNist suite","description"
-attribute,469,String,"\"mpgsys.mpg\"","url"
+," set sound-ellipsoid location height at 1.6m to match typical avatar height "Sound,458,AudioClip,460,2
+attribute,465,String,"location","0","1.6","0"
+attribute,467,String,"containerField","source"
+attribute,468,String,"description","mpgsys.mpg from ConformanceNist suite"
+attribute,469,String,"url","\"mpgsys.mpg\"","\"http://www.web3d.org/x3d/content/examples/ConformanceNist/Appearance/MovieTexture/mpgsys.mpg\""
 MovieTexture,466,attribute,467,0
 MovieTexture,466,attribute,468,1
 MovieTexture,466,attribute,469,2
+," Scene example fragment from http://www.web3d.org/x3d/content/examples/ConformanceNist/Appearance/MovieTexture/mpeg1-systems.x3d "," Expected containerField='source', allowed containerField values=\"texture\" \"source\" \"back\" \"bottom\" \"front\" \"left\" \"right\" \"top\" \"backTexture\" \"bottomTexture\" \"frontTexture\" \"leftTexture\" \"rightTexture\" \"topTexture\" "
 Sound,464,attribute,465,0
-Sound,464,String," set sound-ellipsoid location height at 1.6m to match typical avatar height ",
-Sound,464,MovieTexture,466,2
-attribute,471,String,"ExtrusionShape","DEF"
-attribute,473,String,"appearance","containerField"
-attribute,474,String,"TransparentAppearance","DEF"
-attribute,476,String,"material","containerField"
-attribute,477,String,"1.0","transparency"
+," set sound-ellipsoid location height at 1.6m to match typical avatar height "Sound,464,MovieTexture,466,2
+attribute,471,String,"DEF","ExtrusionShape"
+attribute,473,String,"containerField","appearance"
+attribute,474,String,"DEF","TransparentAppearance"
+attribute,476,String,"containerField","material"
+attribute,477,String,"transparency","1.0"
 Material,475,attribute,476,0
 Material,475,attribute,477,1
 Appearance,472,attribute,473,0
 Appearance,472,attribute,474,1
 Appearance,472,Material,475,2
-attribute,479,String,"geometry","containerField"
-attribute,480,String,"ExampleExtrusion","DEF"
+attribute,479,String,"containerField","geometry"
+attribute,480,String,"DEF","ExampleExtrusion"
 Extrusion,478,attribute,479,0
 Extrusion,478,attribute,480,1
 Shape,470,attribute,471,0
-Shape,470,String," ExampleExtrusion isCrossSectionClosed()=true, crossSection='[1.0, 1.0, 1.0, -1.0, -1.0, -1.0, -1.0, 1.0, 1.0, 1.0]' ",
-Shape,470,Appearance,472,3
+," ExampleExtrusion isCrossSectionClosed()=true, crossSection='[1.0, 1.0, 1.0, -1.0, -1.0, -1.0, -1.0, 1.0, 1.0, 1.0]' "," ExampleExtrusion isSpineClosed()=false, spine='[0.0, 0.0, 0.0, 0.0, 1.0, 0.0]' "Shape,470,Appearance,472,3
 Shape,470,Extrusion,478,4
 Scene,90,ViewpointGroup,91,0
 Scene,90,WorldInfo,101,1
@@ -788,25 +790,25 @@ Scene,90,TimeSensor,154,9
 Scene,90,ROUTE,158,10
 Scene,90,ROUTE,163,11
 Scene,90,Transform,168,12
-Scene,90,OrientationInterpolator,201,14
+," repeatedly spin 180 degrees as a readable special effect "Scene,90,OrientationInterpolator,201,14
 Scene,90,TimeSensor,205,15
 Scene,90,ROUTE,209,16
 Scene,90,ROUTE,214,17
 Scene,90,Group,219,18
 Scene,90,ProtoDeclare,256,19
 Scene,90,ExternProtoDeclare,286,20
-Scene,90,Shape,295,22
+," Tested ArtDeco01ProtoInstance, ArtDeco02ProtoInstance for improper node type when ProtoInstance is added in wrong place "Scene,90,Shape,295,22
 Scene,90,Shape,310,23
 Scene,90,Shape,327,24
 Scene,90,Inline,339,25
 Scene,90,IMPORT,342,26
 Scene,90,EXPORT,346,27
 Scene,90,ProtoDeclare,349,28
-Scene,90,Group,436,30
-Scene,90,Group,456,37
+," Test success: declarative statement createDeclarativeShapeTests() "Scene,90,Group,436,30
+," Test success: declarative statement addChild() "," Test success: x3dModel.findNodeByDEF(DeclarativeAppearanceExample) = <Appearance DEF='DeclarativeAppearanceExample'/> i.e. <Appearance DEF='DeclarativeAppearanceExample'> <!- - DeclarativeMaterialExample gets overridden by subsequently added MaterialModulator ProtoInstance - -> <ProtoInstance DEF='MyMaterialModulator' name='MaterialModulator' containerField='material'/> </Appearance> "," Test success: x3dModel.findElementByNameValue(findThisNameValue) = <MetadataString DEF='FindableMetadataStringTest' name='findThisNameValue' value='\"test case\"'/> "," Test success: x3dModel.findElementByNameValue(\"ArtDeco01Material\", \"ProtoDeclare\") found "," Test success: x3dModel.findElementByNameValue(\"MaterialModulator\", \"ProtoDeclare\") found "," Test success: x3dModel.findElementByNameValue(\"MaterialModulator\", \"ProtoInstance\") found "Scene,90,Group,456,37
 Scene,90,Sound,458,38
 Scene,90,Sound,464,39
-Scene,90,Shape,470,46
+," Test success: AnchorObject.isNode()=true, siteAnchor.isNode()=true "," Test success: AnchorObject.isStatement()=false, siteAnchor.isStatement()=false "," Test success: ROUTEObject.isNode()=false, orbitPositionROUTE.isNode()=false "," Test success: ROUTEObject.isStatement()=true, orbitPositionROUTE.isStatement()=true "," Test success: CommentsBlock.isNode()=false, testComments.isNode()=false "," Test failure: CommentsBlock.isStatement()=true, testComments.isStatement()=true "Scene,90,Shape,470,46
 X3D,1,attribute,2,0
 X3D,1,attribute,3,1
 X3D,1,attribute,4,2
@@ -815,9 +817,9 @@ X3D,1,head,6,4
 X3D,1,Scene,90,5
 X3D,0,X3D,1,0
 
-POINT,1,String,2.0,1.0
-POINT,2,String,5.0,4.0
-POINT,3,String,8.0,7.0
+POINT,1,String,1.0,2.0,3.0,"&red\""
+POINT,2,String,4.0,5.0,6.0,">green\"\""
+POINT,3,String,7.0,8.0,9.0,"<blue\"\"\""
 EDGE,4,POINT,1,0
 EDGE,4,POINT,2,1
 EDGE,5,POINT,2,0
